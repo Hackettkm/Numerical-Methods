@@ -1,4 +1,4 @@
-# False Position
+## False Position
 
 ## Purpose:
 To estimate the location of a root.
@@ -7,7 +7,7 @@ To estimate the location of a root.
 The root locating method uses an interval, a lower and upper bound, to bracket the root. A straight line is drawn connecting the endpoints of the function over the interval. Where the line crosses the x-axis is where the new root it located. The new root then replaces the x-value of which ever endpoint creates a y value with the same sign as the y value produced from plugging the new root into the function. This process is repeated until a desirable estimation is achieved.
 
 
-### Inputs:
+#### Inputs:
 
 *func* - the function being evaluated
  
@@ -21,7 +21,7 @@ The root locating method uses an interval, a lower and upper bound, to bracket t
 
 
 
-### Outputs:
+#### Outputs:
 
 *root* - the estimated root location
 
@@ -40,8 +40,8 @@ The root locating method uses an interval, a lower and upper bound, to bracket t
 ## Other Useful Information:
 
 #### Equation:
-root = xu - ( ( f(xu) * (xl-xu) ) / ( f(xl)-f(xu) ) )
-ea = abs ( (rootNew-root) / rootNew ) * 100
+*root = xu - ( ( f(xu) * (xl-xu) ) / ( f(xl)-f(xu) ) )
+*ea = abs ( (rootNew-root) / rootNew ) * 100
 
 #### Menu Option
 The use of a menu allows the user to determine if they would like to set a *maxiter* without having to specificy an *es*
