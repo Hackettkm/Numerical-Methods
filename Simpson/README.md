@@ -24,4 +24,4 @@ The Simpson function works to estimate the sum of all the f(x) values of a set o
 Simpson's 1/3 Rule
 
 Trapezoidal Rule
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
+![picture alt](C:\Users\Kayla M. Hackett\Desktop\School Stuff)
