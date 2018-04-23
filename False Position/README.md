@@ -1,1 +1,39 @@
 # False Position
+
+
+
+## Purpose:
+
+
+
+### Inputs:
+
+*func*
+
+*xl*
+
+*xu*
+
+*es*
+
+*maxiter*
+
+
+
+### Outputs:
+
+*root*
+
+*fx*
+
+*ea*
+
+*iter*
+
+
+
+## Limitations:
+
+
+
+## Other Useful Information:# False Position
