@@ -15,15 +15,18 @@ The Simpson function works to estimate the sum of all the f(x) values of a set o
 
 
 ## Limitations:
-
+* This is only an estimate and and has an increased error compared to if the 3/8 rule were used.
+* The Simpson 1/3 rule is limited to evenly spaced intervals.
+* The Simpson 1/3 rule is limited to an odd number of points (even number of segments/intervals).
 
 ## Other Useful Information:
 
 #### Equations:
 Simpson's 1/3 Rule
-
-![picture alt](C:\Users\Kayla M. Hackett\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\TempState\Downloads "Title is optional")
+I=(b-a)*( f(x0) + 4*values1 + 2*values2 + f(xn) )/(3*n)
+values1 = summation of y(xi)    i=1,3,5... to n-1
+values2 = summation of y(xj)    j=2,4,6... to n-2
 
 Trapezoidal Rule
-
+trap = (b-a)*(f(a)+f(b))/2
 
