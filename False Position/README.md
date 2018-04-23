@@ -34,7 +34,8 @@ The root locating method uses an interval, a lower and upper bound, to bracket t
 
 
 ## Limitations:
-
+* The root is only an estimate.
+* There will reach a point where the error will become so small that the computer will read it as zero from a truncation error even though the root may not be the exact root.
 
 
 ## Other Useful Information:
