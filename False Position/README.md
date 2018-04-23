@@ -1,4 +1,4 @@
-## False Position
+# False Position
 
 ## Purpose:
 To estimate the location of a root.
@@ -39,7 +39,7 @@ The root locating method uses an interval, a lower and upper bound, to bracket t
 
 ## Other Useful Information:
 
-#### Equation:
+#### Equations:
 
 root = xu - ( ( f(xu) * (xl-xu) ) / ( f(xl)-f(xu) ) )
 
