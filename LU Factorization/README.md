@@ -8,7 +8,9 @@ The LU factorization function works with the coefficient matrix [A] attained fro
 
 ### Outputs:
 *L* - lower triangular matrix
+
 *U* - upper triangular matrix
+
 *P* - the pivot matrix
 
 ## Limitations:
