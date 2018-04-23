@@ -8,6 +8,7 @@ The Simpson function works to estimate the sum of all the f(x) values of a set o
 
 ### Inputs:
 *x* - independent variables
+
 *y* - dependent variables (w/ respect to x)
 
 ### Outputs:
