@@ -1,4 +1,3 @@
-
 # Simpson
 
 ## Purpose:
@@ -22,7 +21,8 @@ The Simpson function works to estimate the sum of all the f(x) values of a set o
 
 #### Equations:
 Simpson's 1/3 Rule
-![](images/Simpson's.png)
+![picture alt](
+https://colostate.instructure.com/files/9248812/download?download_frd=1 "Title is optional")
 
 Trapezoidal Rule
 
