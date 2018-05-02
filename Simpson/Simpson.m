@@ -52,7 +52,7 @@ if Remainder == 1           % Odd number of intervals. Warn user of trapesoidal 
 end
 
 %% Find I for Even Intervals
-
+if n>1
     a=x(1) ; b=x(xL)                % Set the range
     
     count=0                         % Counter will be used for creating vectors.
@@ -64,16 +64,18 @@ end
     end
     values1=sum(values1)            % The values are summed up.
     
-    
+if n>2
     for j=2:2:n-2                   % Equivalent to the summation notation that adds all y(xj) skipping one at a time until it reaches the y value one away from the end.
         count=count+1
         values2(1,count)=y(j+1)     % j+1 is added because y(x2) is equivalent to the 3nd y value and so forth.
     end
     values2=sum(values2)            % The values are summed up.
-    
+else
+    values2=0
+end
     
     I=(b-a)*( y(1) + 4*values1 + 2*values2 + y(xL) )/(3*n)   % Simpson's 1/3 Composite Equation
-    
+end
 %% Find I for Odd Intervals
 if Remainder == 1                   % Odd number of intervals
     
